@@ -9,7 +9,7 @@ This script is for educational purposes only and should not be used to access ne
 
 '''
 
-target = "172.18.48.1"
+target = "Target IP address"
 queue = Queue()
 open_ports = []
 
