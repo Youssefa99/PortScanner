@@ -45,7 +45,7 @@ fill_queue(port_list)
 thread_list = []
 
 # run 512 threads for execution speed
-for i in range(10):
+for i in range(512):
     thread = threading.Thread(target=worker)
     thread_list.append(thread)
 
